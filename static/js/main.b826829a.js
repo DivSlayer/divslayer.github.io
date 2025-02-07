@@ -10626,6 +10626,11 @@
                     description: "Python App for cracking wifi",
                     imgUrl: Tn,
                     href: "https://github.com/geeksloths/Wifi-Cracker"
+                },{
+                    title: "Chat App Django",
+                    description: "Django backend for the flutter chat-app",
+                    imgUrl: chat_app_img,
+                    href: "https://github.com/geeksloths/chat-app/Backend"
                 }, {
                     title: "Youtube Downloader",
                     description: "Download any video from youtube",
