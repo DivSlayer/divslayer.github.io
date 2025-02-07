@@ -10630,7 +10630,7 @@
                     title: "Chat App Django",
                     description: "Django backend for the flutter chat-app",
                     imgUrl: chat_app_img,
-                    href: "https://github.com/geeksloths/chat-app/Backend"
+                    href: "https://github.com/geeksloths/Chat-App/tree/main/Backend"
                 }, {
                     title: "Youtube Downloader",
                     description: "Download any video from youtube",
