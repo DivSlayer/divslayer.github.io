@@ -9759,7 +9759,7 @@
                                             alt: ""
                                         })
                                     }), (0, o.jsx)("a", {
-                                        href: "http://instagram.com/geeksloths",
+                                        href: "http://instagram.com/div.slayer",
                                         target: "_blank",
                                         children: (0, o.jsx)("img", {
                                             src: rn,
@@ -9944,7 +9944,7 @@
                                 className: "tagline",
                                 children: "Welcome to my portfolio"
                             }), (0, o.jsxs)("h1", {
-                                children: ["Hi I'm GeekSloths.", (0, o.jsx)("br", {}), " ", (0, o.jsx)("span", {
+                                children: ["Hi I'm DivSlayer.", (0, o.jsx)("br", {}), " ", (0, o.jsx)("span", {
                                     className: "wrap",
                                     children: l
                                 })]
@@ -10625,43 +10625,43 @@
                     title: "WIFI Cracker",
                     description: "Python App for cracking wifi",
                     imgUrl: Tn,
-                    href: "https://github.com/geeksloths/Wifi-Cracker"
+                    href: "https://github.com/DivSlayer/Wifi-Cracker"
                 },{
                     title: "Chat App Django",
                     description: "Django backend for the flutter chat-app",
                     imgUrl: chat_app_img,
-                    href: "https://github.com/geeksloths/Chat-App/tree/main/Backend"
+                    href: "https://github.com/DivSlayer/Chat-App/tree/main/Backend"
                 }, {
                     title: "Youtube Downloader",
                     description: "Download any video from youtube",
                     imgUrl: _n,
-                    href: "https://github.com/geeksloths/Youtube-Downloader"
+                    href: "https://github.com/DivSlayer/Youtube-Downloader"
                 }, {
                     title: "Color Palette Detector",
                     description: "Get the color palette of a picture",
                     imgUrl: jn,
-                    href: "https://github.com/geeksloths/color-palette-detector"
+                    href: "https://github.com/DivSlayer/color-palette-detector"
                 }, {
                     title: "Hand Volume Controller",
                     description: "Control your volume with your hand gestures!!",
                     imgUrl: On,
-                    href: "https://github.com/geeksloths/hand-volume-controller"
+                    href: "https://github.com/DivSlayer/hand-volume-controller"
                 }],
                 n = [{
                     title: "Covid 19 App",
                     description: "Simple app displays patient statistics and prevention methods for COVID-19.",
                     imgUrl: Ln,
-                    href: "https://github.com/geeksloths/covid-19-app"
+                    href: "https://github.com/DivSlayer/covid-19-app"
                 }, {
                     title: "Finance App",
                     description: "Simple design for a finance management app",
                     imgUrl: In,
-                    href: "https://github.com/geeksloths/finance-app"
+                    href: "https://github.com/DivSlayer/finance-app"
                 }, {
                     title: "Chat App",
                     description: "A comprehensive chat application consisting of a backend and frontend. The backend is built with Django, while the frontend uses Flutter for a cross-platform experience.",
                     imgUrl: chat_app_img,
-                    href: "https://github.com/geeksloths/chat-app"
+                    href: "https://github.com/DivSlayer/chat-app"
                 }];
             return (0, o.jsxs)("section", {
                 className: "project",
