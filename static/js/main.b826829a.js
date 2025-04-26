@@ -10303,7 +10303,7 @@
             Rn = (n.p, n.p, n.p + "static/media/color-sharp2.c87586c6c2f549cb4aa6.png"),
             Ln = n.p + "static/media/covid-19-banner.482b506f36b383e5940d.png",
             In = n.p + "static/media/finance_app.22cb3d7863d3389c1390.png";
-            food_app_img = n.p + "static/media/food_app_banner.png";
+            let food_app_img = n.p + "static/media/food_app_banner.png";
             let chat_app_img = n.p + "static/media/chat_app_banner.png";
 
         function Mn(e, t, n, r) {
