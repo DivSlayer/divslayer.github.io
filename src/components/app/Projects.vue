@@ -28,7 +28,7 @@ const projects = computed<Project[]>(() => [
     name: t.value.projects.items.uniNote.name,
     banner: 'https://raw.githubusercontent.com/DivSlayer/UniNote/main/banner.png',
     description: t.value.projects.items.uniNote.description,
-    url: 'https://github.com/DivSlayer/Food-App',
+    url: 'https://github.com/DivSlayer/UniNote',
     languages: [ReactLang, TypeScriptLang]
   },
   {
