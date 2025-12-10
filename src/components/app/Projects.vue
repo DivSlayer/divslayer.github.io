@@ -25,6 +25,13 @@ const projects = computed<Project[]>(() => [
     languages: [ReactLang, DjangoLang, FlutterLang]
   },
   {
+    name: t.value.projects.items.uniNote.name,
+    banner: 'https://raw.githubusercontent.com/DivSlayer/UniNote/main/banner.png',
+    description: t.value.projects.items.uniNote.description,
+    url: 'https://github.com/DivSlayer/Food-App',
+    languages: [ReactLang, TypeScriptLang]
+  },
+  {
     name: t.value.projects.items.crmNuxt.name,
     banner: CRMBanner,
     description: t.value.projects.items.crmNuxt.description,

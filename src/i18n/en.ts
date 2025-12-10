@@ -18,6 +18,10 @@ export default {
         name: 'Food Delivery Project',
         description: 'A full-stack food delivery system with map-based coverage, multi-branch support, financial insights, and real-time delivery tracking across web and mobile platforms.',
       },
+      uniNote: {
+        name: 'UniNote',
+        description: 'UniNote is a robust, interactive web application designed to centralize and enhance the academic experience by providing a dedicated platform for course note management, sharing, and peer collaboration. It serves as the single source of truth for students seeking high-quality, organized, and authenticated study materials.',
+      },
       crmNuxt: {
         name: 'CRM Nuxt Dashboard',
         description: 'Modern, RTL-first CRM dashboard built with Nuxt 4, Vue 3, Tailwind CSS, and handcrafted SCSS modules. The UI ships with Persian copy, Jalali-aware calendars, reusable form controls, and demo data so you can adapt it to a real sales or operations workflow.',
