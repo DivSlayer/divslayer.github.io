@@ -35,7 +35,7 @@ const projects = computed<Project[]>(() => [
     name: t.value.projects.items.crmNuxt.name,
     banner: CRMBanner,
     description: t.value.projects.items.crmNuxt.description,
-    url: 'https://github.com/DivSlayer/Food-App',
+    url: 'https://github.com/DivSlayer/CRM-Nuxt',
     languages: [NuxtLang, VueLang, TypeScriptLang]
   },
   {
@@ -63,7 +63,7 @@ const projects = computed<Project[]>(() => [
     name: t.value.projects.items.covidApp.name,
     banner: 'https://raw.githubusercontent.com/DivSlayer/Covid-19-App/main/banner.png',
     description: t.value.projects.items.covidApp.description,
-    url: 'https://github.com/DivSlayer/Finance-App',
+    url: 'https://github.com/DivSlayer/Covid-19-App',
     languages: [FlutterLang]
   },
 ]);
