@@ -1,0 +1,6 @@
+{
+  "name": "Amir Esfandiari Portfolio",
+  "description": "A high-end 3D developer portfolio with glassmorphism UI components and responsive scroll animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
