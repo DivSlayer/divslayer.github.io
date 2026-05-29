@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-bg-space-val: #141514;
+  --color-accent-blue-val: #3ebd6a;
+  --color-accent-teal-val: #4ade80;
+  --color-text-dim-val: #9ca3af;
+  --color-glass-border-val: rgba(255, 255, 255, 0.08);
+  --color-glass-bg-val: rgba(255, 255, 255, 0.02);
+  --color-glass-sub-bg-val: rgba(255, 255, 255, 0.05);
+  --color-tooltip-bg-val: #181918;
+  --color-text-main-val: #ffffff;
+  --color-scroll-track-val: #141514;
+  --color-scroll-thumb-val: rgba(255, 255, 255, 0.08);
+}
+
+:root.light {
+  --color-bg-space-val: #fafaf9;
+  /* Warm elegant sand-cream */
+  --color-accent-blue-val: #15803d;
+  /* Vibrant rich green for readability in light mode */
+  --color-accent-teal-val: #16a34a;
+  /* Deeper emerald green */
+  --color-text-dim-val: #52525b;
+  /* Soft slate-600 gray */
+  --color-glass-border-val: rgba(20, 21, 20, 0.08);
+  --color-glass-bg-val: rgba(20, 21, 20, 0.02);
+  --color-glass-sub-bg-val: rgba(20, 21, 20, 0.05);
+  --color-tooltip-bg-val: #ffffff;
+  --color-text-main-val: #141514;
+  --color-scroll-track-val: #f5f5f4;
+  --color-scroll-thumb-val: rgba(20, 21, 20, 0.12);
+}
+
+@theme {
+  --font-sans: "Inter", "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Vazirmatn", system-ui, sans-serif;
+  --color-bg-space: var(--color-bg-space-val);
+  --color-accent-blue: var(--color-accent-blue-val);
+  --color-accent-teal: var(--color-accent-teal-val);
+  --color-text-dim: var(--color-text-dim-val);
+  --color-glass-border: var(--color-glass-border-val);
+  --color-glass-bg: var(--color-glass-bg-val);
+  --color-glass-sub-bg: var(--color-glass-sub-bg-val);
+  --color-tooltip-bg: var(--color-tooltip-bg-val);
+  --color-text-main: var(--color-text-main-val);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-scroll-track-val);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-scroll-thumb-val);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-blue-val);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-space-val);
+  color: var(--color-text-main-val);
+  overflow-x: hidden;
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom styles for right-to-left Persian text adjustments */
+.rtl-layout {
+  direction: rtl;
+  text-align: right;
+}
+
+.ltr-layout {
+  direction: ltr;
+  text-align: left;
+}
+
+.custom-pointer>* {
+  z-index: 200;
+  transition: all 0;
+}
