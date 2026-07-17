@@ -68,8 +68,7 @@ export const translatedProjects = {
       title: "Finance App Design",
       description: "A comprehensive mobile finance dashboard built with Flutter. Features real-time tracking, expense analytics, and glassmorphism UI components.",
       techStack: ["Flutter", "Dart", "Firebase"],
-      githubUrl: "https://github.com/divslayer",
-      liveUrl: "#",
+      githubUrl: "https://github.com/DivSlayer/Finance-App",
       image: financePic,
     },
     {
@@ -78,7 +77,7 @@ export const translatedProjects = {
       title: "CRM Tool Dashboard",
       description: "An enterprise-grade CRM dashboard for managing customer relationships and sales pipelines. High-performance data visualization with clean responsive views.",
       techStack: ["Vue.js", "Vuex", "Sass"],
-      githubUrl: "https://github.com/divslayer",
+      githubUrl: "https://github.com/DivSlayer/CRM-Nuxt",
       image: crmPic,
     },
     {
@@ -87,8 +86,7 @@ export const translatedProjects = {
       title: "Chat Application",
       description: "End-to-end encrypted messaging application featuring real-time socket communication, adaptive screen state, and dynamic user status tracking.",
       techStack: ["React", "Node.js", "Socket.io"],
-      githubUrl: "https://github.com/divslayer",
-      liveUrl: "#",
+      githubUrl: "https://github.com/DivSlayer/Chat-App",
       image: chatPic,
     },
     {
@@ -97,7 +95,7 @@ export const translatedProjects = {
       title: "Food Delivery App",
       description: "Modern food ordering platform with integrated maps, payment gateways, and a custom delivery path tracking algorithm.",
       techStack: ["React Native", "Django", "PostgreSQL"],
-      githubUrl: "https://github.com/divslayer",
+      githubUrl: "https://github.com/DivSlayer/Food-App",
       image: deliveryPic,
     },
   ],
@@ -108,8 +106,7 @@ export const translatedProjects = {
       title: "طراحی اپلیکیشن مالی",
       description: "یک داشبورد مالی جامع موبایل ساخته شده با فلاتر. دارای قابلیت ردیابی آنی تراکنش‌ها، تحلیل هزینه‌ها و کامپوننت‌های شیشه‌ای (Glassmorphism).",
       techStack: ["Flutter", "Dart", "Firebase"],
-      githubUrl: "https://github.com/divslayer",
-      liveUrl: "#",
+      githubUrl: "https://github.com/DivSlayer/Finance-App",
       image: financePic,
     },
     {
@@ -118,7 +115,7 @@ export const translatedProjects = {
       title: "داشبورد سیستم CRM",
       description: "داشبورد پیشرفته CRM برای مدیریت ارتباط با مشتریان و قیف فروش. نمایش کارآمد داده‌ها به همراه صفحات واکنش‌گرا و مدرن.",
       techStack: ["Vue.js", "Vuex", "Sass"],
-      githubUrl: "https://github.com/divslayer",
+      githubUrl: "https://github.com/DivSlayer/CRM-Nuxt",
       image: crmPic,
     },
     {
@@ -127,8 +124,7 @@ export const translatedProjects = {
       title: "پیام‌رسان هوشمند",
       description: "یک برنامه چت رمزگذاری شده سرتاسری با قابلیت ارتباط آنی سوکت، رابط کاربری تطبیق‌پذیر و نمایش پیوسته‌ی وضعیت کاربران.",
       techStack: ["React", "Node.js", "Socket.io"],
-      githubUrl: "https://github.com/divslayer",
-      liveUrl: "#",
+      githubUrl: "https://github.com/DivSlayer/Chat-App",
       image: chatPic,
     },
     {
@@ -137,7 +133,7 @@ export const translatedProjects = {
       title: "اپلیکیشن سفارش غذا",
       description: "پلتفرم مدرن سفارش آنلاین غذا با نقشه‌های تعاملی یکپارچه، درگاه پرداخت و الگوریتم پیشرفته‌ی ردیابی مسیر تحویل.",
       techStack: ["React Native", "Django", "PostgreSQL"],
-      githubUrl: "https://github.com/divslayer",
+      githubUrl: "https://github.com/DivSlayer/Food-App",
       image: deliveryPic,
     },
   ]

@@ -4,7 +4,7 @@ import ThreeCanvas from "./ThreeCanvas";
 import { ArrowDown } from "lucide-react";
 import { useApp } from "../context/AppContext";
 // @ts-ignore
-import amirPortrait from "../assets/images/profile-BK2BtHT2.png";
+import amirPortrait from "../assets/images/profile-3.png";
 
 export default function HeroSection() {
   const { t, isRtl, theme } = useApp();
